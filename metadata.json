@@ -4,5 +4,5 @@
     "description[de]": "Zeichenfolgen hashen",
     "license": "MIT",
     "name": "Hash Generator",
-    "url": "https://github.com/albertlauncher/plugins/tree/main/hash",
+    "url": "https://github.com/albertlauncher/albert-plugin-hash",
 }
