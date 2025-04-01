@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
-find_package(Albert REQUIRED)
+project(hash VERSION 10.1)
 
-project(hash VERSION 10.0)
+find_package(Albert REQUIRED)
 
 albert_plugin(QT Core)
