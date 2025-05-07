@@ -9,6 +9,7 @@
 #include <memory>
 using namespace albert;
 using namespace std;
+using namespace util;
 
 static int algo_count = QMetaEnum::fromType<QCryptographicHash::Algorithm>().keyCount()-1;
 
