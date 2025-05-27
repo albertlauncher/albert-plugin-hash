@@ -4,8 +4,8 @@
 #include <QCoreApplication>
 #include <QCryptographicHash>
 #include <QMetaEnum>
-#include <albert/albert.h>
 #include <albert/standarditem.h>
+#include <albert/systemutil.h>
 #include <memory>
 using namespace albert::util;
 using namespace albert;
@@ -33,11 +33,11 @@ static shared_ptr<Item> buildItem(int algo_index, const QString& string_to_hash)
         {
             {
                 QStringLiteral("c"), tr_c,
-                [hashString]{ albert::setClipboardText(QString(hashString)); }
+                [hashString]{ setClipboardText(QString(hashString)); }
             },
             {
                 QStringLiteral("cs"), tr_cs,
-                [hashString]{ albert::setClipboardText(QString(hashString.left(8))); }
+                [hashString]{ setClipboardText(QString(hashString.left(8))); }
             }
         }
     );
