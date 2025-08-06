@@ -3,6 +3,7 @@
     "description": "Hash strings",
     "description[de]": "Zeichenfolgen hashen",
     "license": "MIT",
+    "maintainers": ["@manuelschneid3r"],
     "name": "Hash Generator",
     "url": "https://github.com/albertlauncher/albert-plugin-hash",
 }
