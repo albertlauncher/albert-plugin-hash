@@ -1,1 +1,1 @@
-# albert-plugin-hash
+# Albert plugin: Hash Generator
